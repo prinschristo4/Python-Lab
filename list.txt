@@ -1,0 +1,59 @@
+Python 3.7.3 (default, Apr  3 2019, 05:39:12) 
+[GCC 8.3.0] on linux
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> a=[1,2,3,"prince",-5,2.0]
+>>> a[2]
+3
+>>> a[3]
+'prince'
+>>> len(a)
+6
+>>> a.remove(-5)
+>>> a
+[1, 2, 3, 'prince', 2.0]
+>>> a.insert(4,"christopher")
+>>> a
+[1, 2, 3, 'prince', 'christopher', 2.0]
+>>> a.pop()
+2.0
+>>> a
+[1, 2, 3, 'prince', 'christopher']
+>>> del a
+>>> a
+Traceback (most recent call last):
+  File "<pyshell#11>", line 1, in <module>
+    a
+NameError: name 'a' is not defined
+>>> a=[10,-2,"prins"]
+>>> a
+[10, -2, 'prins']
+>>> a.clear()
+>>> a
+[]
+>>> a.sort[]
+SyntaxError: invalid syntax
+>>> a=[10,-5,2.0,"prince"]
+>>> a
+[10, -5, 2.0, 'prince']
+>>> a.sort()
+Traceback (most recent call last):
+  File "<pyshell#19>", line 1, in <module>
+    a.sort()
+TypeError: '<' not supported between instances of 'str' and 'float'
+>>> 
+>>> a
+[-5, 2.0, 10, 'prince']
+>>> a.pop()
+'prince'
+>>> a
+[-5, 2.0, 10]
+>>> a.sort()
+>>> a
+[-5, 2.0, 10]
+>>> a.reverse()
+>>> a
+[10, 2.0, -5]
+>>> a=["a","b","c"]
+>>> a.count("a")
+1
+>>> 

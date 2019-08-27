@@ -1,0 +1,109 @@
+Python 3.7.3 (default, Apr  3 2019, 05:39:12) 
+[GCC 8.3.0] on linux
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 1+10
+11
+>>> 25*5
+125
+>>> 33/3
+11.0
+>>> 2-3
+-1
+>>> a="hello everyone"
+>>> a
+'hello everyone'
+>>> len(a)
+14
+>>> a[4:12]
+'o everyo'
+>>> a[5:14]
+' everyone'
+>>> clear a
+SyntaxError: invalid syntax
+>>> claer(a)
+Traceback (most recent call last):
+  File "<pyshell#10>", line 1, in <module>
+    claer(a)
+NameError: name 'claer' is not defined
+>>> clear(a)
+Traceback (most recent call last):
+  File "<pyshell#11>", line 1, in <module>
+    clear(a)
+NameError: name 'clear' is not defined
+>>> b="Prince here"
+>>> b
+'Prince here'
+>>> a+b
+'hello everyonePrince here'
+>>> b=" Prince here"
+>>> b
+' Prince here'
+>>> a+b
+'hello everyone Prince here'
+>>> a.upper
+<built-in method upper of str object at 0x7fdde26cc730>
+>>> a.upper()
+'HELLO EVERYONE'
+>>> a.lower()
+'hello everyone'
+>>> a.capitalize()
+'Hello everyone'
+>>> a.title()
+'Hello Everyone'
+>>> a+b.title()
+'hello everyone Prince Here'
+>>> a+b.upper()
+'hello everyone PRINCE HERE'
+>>> c=a+b
+>>> c
+'hello everyone Prince here'
+>>> c.upper()
+'HELLO EVERYONE PRINCE HERE'
+>>> len
+<built-in function len>
+>>> len(a)
+14
+>>> len(c)
+26
+>>> c.lower()
+'hello everyone prince here'
+>>> c.title()
+'Hello Everyone Prince Here'
+>>> c[14:26]
+' Prince here'
+>>> reverse(c)
+Traceback (most recent call last):
+  File "<pyshell#34>", line 1, in <module>
+    reverse(c)
+NameError: name 'reverse' is not defined
+>>> c.reverse()
+Traceback (most recent call last):
+  File "<pyshell#35>", line 1, in <module>
+    c.reverse()
+AttributeError: 'str' object has no attribute 'reverse'
+>>> a.reverse()
+Traceback (most recent call last):
+  File "<pyshell#36>", line 1, in <module>
+    a.reverse()
+AttributeError: 'str' object has no attribute 'reverse'
+>>> a.append()
+Traceback (most recent call last):
+  File "<pyshell#37>", line 1, in <module>
+    a.append()
+AttributeError: 'str' object has no attribute 'append'
+>>> append(a,b)
+Traceback (most recent call last):
+  File "<pyshell#38>", line 1, in <module>
+    append(a,b)
+NameError: name 'append' is not defined
+>>> a.replace["hello","hi"]
+Traceback (most recent call last):
+  File "<pyshell#39>", line 1, in <module>
+    a.replace["hello","hi"]
+TypeError: 'builtin_function_or_method' object is not subscriptable
+>>> slice(stop)
+Traceback (most recent call last):
+  File "<pyshell#40>", line 1, in <module>
+    slice(stop)
+NameError: name 'stop' is not defined
+>>> 
