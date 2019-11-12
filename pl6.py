@@ -7,5 +7,5 @@ msg = "Hello this is my mail by python"
 
 server = smtplib.SMTP("smtp.gmail.com:985")
 server.starttls()
-server.login(fromaddr, "Chin2bro")
+server.login(fromaddr, "**Password**")
 server.sendmail(fromaddr, toaddr, msg)
